@@ -12,15 +12,35 @@ body {
   scroll-behavior: smooth;
 }
 
-.header-container {
+header header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 0;
+  font-family: "Poppins", sans-serif;
 }
-.header-container .logo {
+header header-container .logo {
+  font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22.55px;
+  line-height: 100%;
+}
+header header-container .logo:hover {
+  color: #2563EB;
+  cursor: pointer;
+}
+header header-container .form {
+  max-width: 581px;
+  padding: 16px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
 }
 
 .container {
